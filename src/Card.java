@@ -36,11 +36,11 @@ public abstract class Card {
                 '}';
     }
 
-    public int randomMain(){return getRandomNumber(60, 100);}
+    public int randomMain(){return getRandomNumber(50, 100);}
 
-    public int randomLow(){return getRandomNumber(20, 80);}
+    public int randomLow(){return getRandomNumber(1, 50);}
 
-    public int random() {return getRandomNumber(10, 90);}
+    public int random() {return getRandomNumber(20, 80);}
 
     public String getCardClass(){
         String x = "" + getClass();

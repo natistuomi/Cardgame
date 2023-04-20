@@ -1,7 +1,9 @@
 public class Test {
     public static void main(String[] args){
-        Warrior w = new Warrior("Keith");
-        System.out.println(w.toString());
-        System.out.println(w.getCardClass());
+        Warrior wa = new Warrior("Wayne");
+        Wizard wi = new Wizard("William");
+        Archer a = new Archer("Andrea");
+        Thief t = new Thief("Thalia");
+        System.out.println(wa.toString() + "\n" + wi.toString() + "\n" + a.toString() + "\n" + t.toString());
     }
 }
