@@ -40,6 +40,8 @@ public abstract class Card {
 
     public int randomLow(){return getRandomNumber(20, 80);}
 
+    public int random() {return getRandomNumber(10, 90);}
+
     public String getCardClass(){
         String x = "" + getClass();
         return x;
@@ -48,6 +50,7 @@ public abstract class Card {
     public int getRandomNumber(int min, int max) {return (int) ((Math.random() * (max - min)) + min);}
 
     public String playAgainst(Card b){
+
         return "";
     }
 }
