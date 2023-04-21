@@ -68,7 +68,7 @@ public abstract class Card {
             else if (i == 1){main = M;}
             else{main = A;}
         }
-        return H*(main+main);
+        return H * (main + main);
     }
 
     public int getDefenseValue(String a, String b, int H, int S, int M, int A){
@@ -94,7 +94,7 @@ public abstract class Card {
             else if (i == 1){mainB = M;}
             else{mainB = A;}
         }
-        return H*(mainA+mainB);
+        return H * (mainA + mainB);
     }
 
 }
